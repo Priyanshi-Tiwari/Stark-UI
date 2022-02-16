@@ -3,8 +3,12 @@
     --primary-color-dark:#03045e;
     --secondary-color:#0077b6;
     --white-color:#FFFFFF;
-    --dark-background:#0A0A0A;
+    --dark-background:hsl(0, 0%, 4%);
     --yellow-color:#FFD748;
+    --red-color:#FF0000;
+    --green-color:#008000;
+
+
 
 
 }
