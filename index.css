@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url(./Stylesheets/commons/variables.css);
-/* :root{
-    /* --primary-color:#4F46E5;
-    --dark-gray:#9CA3AF;
-    --off-white:#E5E7EB; */
-    /* --primary-color:#5265E4;
-    --dark-gray:#5265E4;
-    --off-white:#0A0A0A;
 
-
-} */ 
 
 h1{
     color:var(--yellow-color);
@@ -117,7 +108,7 @@ body{
 }
 
 .span-color{
-    color:#FFD748
+    color:var(--yellow-color)
 }
 
 .section{
