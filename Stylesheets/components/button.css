@@ -1,0 +1,113 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+;
+    
+}
+div{
+   
+    padding:1rem
+}
+
+.btn{
+    padding:1rem;
+    color:var(--white-color);
+    border-radius:0.5rem;
+    font-size:1rem;
+    font-weight:bold;
+    border:0.2rem solid  transparent;
+    cursor:pointer
+
+}
+
+.btn-primary{
+    background-color:var(--primary-color-dark);
+}
+
+.btn-secondary{
+    background-color:var(--secondary-color);
+}
+
+.btn-link{
+    text-decoration: none;
+    color:white;
+    border:0.2rem solid var(--primary-color-dark);
+    border-radius: 0.5rem;
+}
+    
+
+
+.btn-icon{
+    background-color: var(--primary-color-dark);
+
+
+}
+
+
+.btn-floating{
+    border-radius: 50%;
+    background-color:var(--primary-color-dark);
+    height:1.5rem;
+    width:1.5rem
+
+}
+
+
+.left_div {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px -15px;
+    position: sticky;
+    top: 0;
+    height: 40rem;
+    width: 25rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.scroll{
+    overflow-y: scroll;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    
+}
+
+.box1 {
+    position: sticky;
+    top: 0;
+}
+
+.item a {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.input-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:90%;
+    
+    color:var(--white-color)
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+}
+
+iframe{
+    width:631px;
+    height:225px;
+
+}
+
