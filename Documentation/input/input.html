@@ -73,13 +73,13 @@
         <h2>Input</h2>
         <div class="flex-col">
           
-          <div class="flex">
+          <div class="flex-col input-container">
           <h2>Textbox</h2>
           <label for="name" class="name-label">Username:</label>
-          <input type="text" name="name" class="name-input" />
+          <input type="text" name="name" class="name-input display" />
   
           <label for="password" class="password-label">Password:</label>
-          <input type="password" name="password" class="password-input" />
+          <input type="password" name="password" class="password-input display" />
           <iframe
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Ch2%253ETextbox%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522name-label%2522%253EUsername%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520class%253D%2522name-input%2522%2520%252F%253E%250A%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522password-label%2522%253EPassword%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522password%2522%2520class%253D%2522password-input%2522%2520%252F%253E"
   style="width: 757px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
@@ -87,10 +87,10 @@
 </iframe>
         </div>
 
-        <div class="flex">
+        <div class="flexcol input-container">
           <h2>With validation and error style</h2>
           <label for="name" class="val-label">Username:</label>
-          <input type="text" name="name" class="val-input" />
+          <input type="text" name="name" class="val-input display" />
           
             <small class="success">
               <i class="fa-solid fa-check"></i
@@ -100,7 +100,7 @@
         
         
           <label for="password" class="val-label">Password:</label>
-          <input type="password" name="password" class="val-password" />
+          <input type="password" name="password" class="val-password display" />
           
             <small class="error">
               <i class="fa-solid fa-xmark"></i

@@ -1,5 +1,6 @@
 /* @import url(../Stylesheets/commons/variables.css); */
 @import url(../index.css);
 @import url(./commons/variables.css);
+@import url(./commons/utils.css);
 @import url(./components/button.css);
 @import url(../Stylesheets/components/input.css);
