@@ -1,0 +1,42 @@
+.circular-avatar {
+  border-radius: 50%;
+  position: relative;
+}
+
+.avatar-xs {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.avatar-md {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.avatar-l {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.avatar-xl {
+  width: 5.5rem;
+  height: 5.5rem;
+}
+.avatar-xxl {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+.bordered {
+  border: 3px solid black;
+}
+.tr-avatar-img {
+  height: 100%;
+}
+.bordered-container {
+  /* padding-top: 2rem; */
+}
+.box-avatar {
+  border-radius: 10%;
+}
+
+.avatar-row {
+  margin: 0 auto;
+  width: 60%;
+}
