@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../../Stylesheets/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6026902e47.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Stark input</title>
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">Stark UI</div>
+      <ul class="list-non-bullet list-align">
+        <li class="list-inline">
+          <a class="links link-active" href="../../index.html">Home</a>
+        </li>
+        <li class="list-inline">
+          <a class="links" href="./button.html">Docs</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="d-flex">
+      <div class="left_div">
+        <div class="box1">
+          <p class="content">Components</p>
+          <hr />
+        </div>
+        <div class="scroll">
+          <div class="item">
+            <a class="components" href="#avatar">Avatar</a>
+          </div>
+          <div class="item">
+            <a class="components" href="#alerts">Alerts</a>
+          </div>
+          <div class="item">
+            <a class="components" href="#badge">Badge</a>
+          </div>
+          <div class="item">
+            <a class="components" href="#button">Button</a>
+          </div>
+          <div class="item">
+            <a class="components" href="#image">Image</a>
+          </div>
+          <div class="item">
+            <a class="components" href="#rating">Rating</a>
+          </div>
+          <div class="item">
+            <a class="components" href="#input">Input</a>
+          </div>
+          <div class="item">
+            <a class="components" href="#list">list</a>
+          </div>
+          <div class="item">
+            <a class="components" href="#toast">Toast</a>
+          </div>
+          <div class="item">
+            <a class="components" href="#typography">Typography</a>
+          </div>
+          <div class="item">
+            <a class="components" href="#card">Card</a>
+          </div>
+          <div class="item">
+            <a class="components" href="#navigation">Navigation</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        
+        <h2>Input</h2>
+        <div class="flex-col">
+          
+          <div class="flex-col input-container">
+          <h2>Textbox</h2>
+          <label for="name" class="name-label">Username:</label>
+          <input type="text" name="name" class="name-input display" />
+  
+          <label for="password" class="password-label">Password:</label>
+          <input type="password" name="password" class="password-input display" />
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Ch2%253ETextbox%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522name-label%2522%253EUsername%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520class%253D%2522name-input%2522%2520%252F%253E%250A%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522password-label%2522%253EPassword%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522password%2522%2520class%253D%2522password-input%2522%2520%252F%253E"
+  style="width: 757px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+
+        <div class="flexcol input-container">
+          <h2>With validation and error style</h2>
+          <label for="name" class="val-label">Username:</label>
+          <input type="text" name="name" class="val-input display" />
+          
+            <small class="success">
+              <i class="fa-solid fa-check"></i
+              ><span class="span-success">Valid username!</span>
+            </small>
+          
+        
+        
+          <label for="password" class="val-label">Password:</label>
+          <input type="password" name="password" class="val-password display" />
+          
+            <small class="error">
+              <i class="fa-solid fa-xmark"></i
+              ><span class="span-error">The passsword is not valid!</span>
+              </small>
+              <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Ch2%253EWith%2520validation%2520and%2520error%2520style%253C%252Fh2%253E%250A%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522val-label%2522%253EUsername%253A%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520class%253D%2522val-input%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Csmall%2520class%253D%2522success%2522%253E%250A%253Ci%2520class%253D%2522fa-solid%2520fa-check%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522span-success%2522%253EValid%2520username%21%253C%252Fspan%253E%250A%253C%252Fsmall%253E%250A%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522val-label%2522%253EPassword%253A%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522password%2522%2520class%253D%2522val-password%2522%2520%252F%253E%250A%250A%253Csmall%2520class%253D%2522error%2522%253E%250A%253Ci%2520class%253D%2522fa-solid%2520fa-xmark%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522span-error%2522%253EThe%2520passsword%2520is%2520not%2520valid%21%253C%252Fspan%253E%250A"
+  style="width: 757px; height: 281px">
+</iframe>
+            
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="centered container">
+        <ul class="list-non-bullet">
+          <li class="list-inline">
+            <a
+              class="links"
+              target="_blank"
+              href="https://github.com/Priyanshi-Tiwari"
+              ><i class="fa-brands fa-github" style="font-size: 40px"></i
+            ></a>
+          </li>
+
+          <li class="list-inline">
+            <a
+              class="links"
+              target="_blank"
+              href="https://www.linkedin.com/in/priyanshi-tiwari-90594a221/"
+              ><i class="fa-brands fa-linkedin-in" style="font-size: 40px" ></i></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
