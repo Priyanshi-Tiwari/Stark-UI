@@ -5,7 +5,7 @@ Stark UI is a CSS component library. Made to use beautiful UI components in your
 # Technologies Used
 
     -HTML
-    -Css
+    -CSS
 
 # list of Components
 
