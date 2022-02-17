@@ -24,7 +24,7 @@
   height: 6.5rem;
 }
 .bordered {
-  border: 3px solid black;
+  border: 3px solid var(--white-color);
 }
 .tr-avatar-img {
   height: 100%;
