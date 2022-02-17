@@ -18,25 +18,25 @@ body{
 }
 
 .alert-primary{
-    background-color:#03045e ;
+    background-color:var(--primary-color) ;
     color: white;
     opacity: 75%;
 }
 
 .alert-secondary{
-    background-color:#0077b6;
+    background-color:var(--secondary-color);
     color:white;
     opacity: 75%;
 }
 
 .alert-success{
-    background-color:#94d2bd;
-    color:#0a9396;
+    background-color:var(--success-bg);
+    color:var(--success-color);
 }
 
 .alert-error{
-    background-color:#fecaca;
-    color:#ae2012;
+    background-color:var(--error-bg);
+    color:var(--error-color);
     
     
 }
