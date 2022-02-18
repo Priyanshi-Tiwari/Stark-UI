@@ -1,0 +1,28 @@
+.img-container{
+    width:16.5rem;
+}
+
+.responsive{
+    max-width: 100%;
+    object-fit:cover;
+    border-radius: 0rem;
+}
+
+.rounded{
+    border-radius: 50%;
+}
+
+.rounded-normal{
+    height:10rem;
+    width:10rem
+}
+
+.rounded-small{
+    height:5rem;
+    width:5rem
+}
+
+.rounded-large{
+    height:15rem;
+    width:15rem
+}
