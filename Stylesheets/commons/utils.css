@@ -7,3 +7,11 @@
     display: flex;
     flex: row;
 }
+
+.center{
+    align-self: center;
+}
+
+.p-rel{
+    position: relative;
+}
