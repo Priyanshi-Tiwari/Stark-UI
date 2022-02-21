@@ -15,3 +15,15 @@
 .p-rel{
     position: relative;
 }
+
+.dis-flex{
+    display:flex
+}
+
+.justify-content-sb{
+    justify-content: space-between;
+}
+
+.margin-sm{
+    margin:0.5rem;
+}
