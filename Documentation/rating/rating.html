@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- <link rel="stylesheet" href="../../index.css" /> -->
     <link rel="stylesheet" href="../../Stylesheets/main.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
       src="https://kit.fontawesome.com/6026902e47.js"
       crossorigin="anonymous"
     ></script>
-    <title>Stark Slider</title>
+
+    <link rel="stylesheet" href="alert.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stark Rating</title>
   </head>
   <body>
     <nav class="navigation container">
@@ -24,7 +25,7 @@
         </li>
       </ul>
     </nav>
-    <div class="d-flex">
+    <div class="flex-row">
       <div class="left_div">
         <div class="box1">
           <p class="content">Components</p>
@@ -63,23 +64,30 @@
           </div>
         </div>
       </div>
-      <div class="display-flex-center">
-        <h2>Slider</h2>
-        <div class="flex-col">
-          <h2>Price</h2>
-          <div class="price-values dis-flex justify-content-sb">
-            <p class="margin-sm">1000</p>
-            <p class="margin-sm">2500</p>
-            <p class="margin-sm">5000</p>
-          </div>
-          <input type="range" name="value" max="20" />
-        </div>
+      <div>
+        <h2>Rating</h2>
+        <ul class="rating-comp flex-row display-flex-center">
+          <li class="star-icon">
+            <i class="fa-solid fa-star"></i>
+          </li>
+          <li class="star-icon">
+            <i class="fa-solid fa-star"></i>
+          </li>
+          <li class="star-icon">
+            <i class="fa-solid fa-star"></i>
+          </li>
+          <li class="star-icon">
+            <i class="fa-solid fa-star"></i>
+          </li>
+          <li class="star-icon">
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </li>
+        </ul>
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522display-flex-center%2522%253E%250A%253Ch2%253ESlider%253C%252Fh2%253E%250A%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%253Ch2%253EPrice%253C%252Fh2%253E%250A%253Cdiv%2520class%253D%2522price-values%2520dis-flex%2520justify-content-sb%2522%253E%250A%253Cp%2520class%253D%2522margin-sm%2522%253E1000%253C%252Fp%253E%250A%253Cp%2520class%253D%2522margin-sm%2522%253E2500%253C%252Fp%253E%250A%253Cp%2520class%253D%2522margin-sm%2522%253E5000%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522value%2522%2520max%253D%252220%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cul%2520class%253D%2522rating-comp%2520flex-row%2520%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522star-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522star-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522star-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522star-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522star-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-star-half-stroke%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
           style="
-            width: 588px;
-            height: 392px;
-            padding-top: 1rem;
+            width: 555px;
+            height: 485px;
             border: 0;
             transform: scale(1);
             overflow: hidden;
