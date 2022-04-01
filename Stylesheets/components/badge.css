@@ -11,7 +11,7 @@
   width: 0px;
   height: 0px;
   position: absolute;
-  left: 8rem;
+  left: 7.5rem;
   display: grid;
   place-content: center;
   color: var(--white-color);
@@ -23,14 +23,19 @@
   width: 12.5rem;
 }
 
+.new-container{
+  width:12.5rem;
+  position:relative
+}
+
 .badge-green {
   background-color: var(--green-color);
 }
 
-.red-icon {
+.badge-icon {
   position: absolute;
-  left: 3.5rem;
-  top: 0.5rem;
+  left: 3.2rem;
+  top: 0.1rem;
 }
 
 .fa-house,
