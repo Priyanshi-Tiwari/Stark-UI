@@ -1,0 +1,21 @@
+.grid-2-2{
+display:grid;
+grid-template-columns: 1fr 1fr;
+height:50%;
+width:50%
+}
+
+.grid-item{
+    background-color: var(--gray-color);
+    margin:0.5rem;
+    height:5rem;
+    width:10rem;
+    border-radius:8px
+}
+
+.grid-3-3{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height:50%;
+    width:50%
+    }
