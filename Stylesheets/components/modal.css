@@ -1,0 +1,23 @@
+.modal-title{
+ font-size: 2rem;
+}
+
+.modal-text{
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.modal-icon{
+    padding:0rem
+}
+
+.modal-wrapper{
+    border: 0.1rem solid var(--gray-color);
+    border-radius: 0.5rem;
+    height:13rem;
+    width:16rem;
+}
+
+.modal-txt-wrapper{
+    padding:0rem
+}

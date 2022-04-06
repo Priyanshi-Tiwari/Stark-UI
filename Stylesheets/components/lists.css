@@ -1,0 +1,34 @@
+.li-comp{
+    color:var(--white-color);
+    padding:0.5rem
+}
+
+.stacked-list{
+    list-style: none;
+    gap:1.5rem;
+    color: var(--white-color);
+}
+
+.stacked-li{
+    padding:0.5rem;
+    border: 0.1rem solid var(--gray-color);
+    border-radius: 0.5rem;
+    width:12rem;
+    justify-content: space-between;
+    cursor:pointer;
+ 
+}
+
+.list-container{
+    border: 0.1rem solid var(--gray-color);
+    border-radius: 0.5rem;
+    width:35rem;
+    align-items: center;
+    display: flex;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
