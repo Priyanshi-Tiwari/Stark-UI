@@ -1,0 +1,12 @@
+.toast-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width:30rem;
+    background-color: var(--gray-color);
+    height:3rem;
+    border-radius: 0.5rem;
+}
+
+.toast-text{
+    font-size: 1rem;
+}
